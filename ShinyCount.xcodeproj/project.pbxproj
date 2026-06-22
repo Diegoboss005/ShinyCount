@@ -1,0 +1,232 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA10 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB10 /* WebKit.framework */; };
+		AA01 /* ContadorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB01 /* ContadorApp.swift */; };
+		AA07 /* UpdateChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB07 /* UpdateChecker.swift */; };
+		AA02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02 /* ContentView.swift */; };
+		AA03 /* CounterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB03 /* CounterModel.swift */; };
+		AA05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB06 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB10 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		BB00 /* ShinyCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShinyCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB01 /* ContadorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContadorApp.swift; sourceTree = "<group>"; };
+		BB07 /* UpdateChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateChecker.swift; sourceTree = "<group>"; };
+		BB02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB03 /* CounterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterModel.swift; sourceTree = "<group>"; };
+		BB04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB05 /* ShinyCount.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShinyCount.entitlements; sourceTree = "<group>"; };
+		BB06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA10 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD00 = {
+			isa = PBXGroup;
+			children = (
+				DD01 /* ShinyCount */,
+				DD02 /* Products */,
+				BB10 /* WebKit.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		DD01 /* ShinyCount */ = {
+			isa = PBXGroup;
+			children = (
+				BB01 /* ContadorApp.swift */,
+				BB07 /* UpdateChecker.swift */,
+				BB02 /* ContentView.swift */,
+				BB03 /* CounterModel.swift */,
+				BB04 /* Info.plist */,
+				BB05 /* ShinyCount.entitlements */,
+				BB06 /* Assets.xcassets */,
+			);
+			path = ShinyCount;
+			sourceTree = "<group>";
+		};
+		DD02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB00 /* ShinyCount.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE01 /* ShinyCount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF02 /* Build configuration list for PBXNativeTarget */;
+			buildPhases = (
+				CC01 /* Frameworks */,
+				CC02 /* Sources */,
+				CC03 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = ShinyCount;
+			productName = ShinyCount;
+			productReference = BB00 /* ShinyCount.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EE01 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = FF01 /* Build configuration list for PBXProject */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = es;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = DD00;
+			productRefGroup = DD02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (EE01 /* ShinyCount */);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA05 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA01 /* ContadorApp.swift in Sources */,
+				AA07 /* UpdateChecker.swift in Sources */,
+				AA02 /* ContentView.swift in Sources */,
+				AA03 /* CounterModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FF11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FF12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FF21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ShinyCount/ShinyCount.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ShinyCount/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks");
+				MARKETING_VERSION = 0.8;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.ShinyCount;
+				PRODUCT_NAME = ShinyCount;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FF22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ShinyCount/ShinyCount.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ShinyCount/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks");
+				MARKETING_VERSION = 0.8;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.ShinyCount;
+				PRODUCT_NAME = ShinyCount;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF01 /* Build configuration list for PBXProject */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (FF11 /* Debug */, FF12 /* Release */);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF02 /* Build configuration list for PBXNativeTarget */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (FF21 /* Debug */, FF22 /* Release */);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = EE00 /* Project object */;
+}
